@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to the Kailey Core Core Cakes Club: meet Yumi, explore the OC page, and share fan art for review.">
+  <title>Kailey Core ♡ Core Cakes Club</title>
+  <style>
+    :root {
+      --ink: #51465f; --pink: #ffdced; --peach: #ffe6d6; --yellow: #fff5bd;
+      --mint: #d9f8e8; --blue: #dceeff; --lilac: #eadeff; --white: #fffdfd;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--ink); font-family: "Trebuchet MS", Arial, sans-serif;
+      line-height: 1.65;
+      background: linear-gradient(135deg, var(--pink), var(--peach), var(--yellow), var(--mint), var(--blue), var(--lilac));
+      background-attachment: fixed;
+    }
+    header { padding: 34px 16px 24px; text-align: center; background: rgba(255,255,255,.82); border-bottom: 3px dashed #fff; }
+    .sparkles { letter-spacing: .28rem; font-size: 1.2rem; }
+    h1 { margin: 8px 0 0; font-size: clamp(2.1rem, 7vw, 3.7rem); line-height: 1.15; }
+    .subtitle { margin: 10px 0 20px; }
+    nav { display: flex; justify-content: center; gap: 9px; flex-wrap: wrap; }
+    nav a, .button {
+      display: inline-block; padding: 10px 16px; border: 0; border-radius: 999px;
+      color: var(--ink); background: white; text-decoration: none; font-weight: 700;
+      box-shadow: 0 4px 0 rgba(81,70,95,.12); cursor: pointer;
+    }
+    nav a:hover, .button:hover { transform: translateY(-2px); }
+    main { width: min(100% - 28px, 980px); margin: auto; padding: 22px 0 44px; }
+    section { margin: 20px 0; padding: clamp(18px, 4vw, 30px); background: rgba(255,255,255,.92); border: 2px solid white; border-radius: 25px; box-shadow: 0 9px 24px rgba(81,70,95,.08); }
+    h2 { margin-top: 0; line-height: 1.25; }
+    .hero { text-align: center; padding-top: 30px; padding-bottom: 30px; }
+    .rainbow { font-size: 3.3rem; }
+    .pill { display: inline-block; margin: 3px; padding: 4px 11px; border-radius: 99px; background: var(--mint); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+    .card { padding: 18px; border-radius: 19px; background: linear-gradient(135deg, #fff0f7, #f2edff); }
+    .yumi-icon { display: grid; place-items: center; width: 132px; height: 132px; margin: 8px auto 15px; border: 5px solid white; border-radius: 50%; background: linear-gradient(135deg, var(--pink), var(--lilac), var(--blue)); font-size: 4rem; box-shadow: 0 4px 0 #e8d7ee; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 12px; }
+    .tile { min-height: 140px; display: grid; place-items: center; text-align: center; padding: 16px; border-radius: 18px; background: var(--pink); }
+    .tile:nth-child(2) { background: var(--yellow); } .tile:nth-child(3) { background: var(--mint); } .tile:nth-child(4) { background: var(--blue); }
+    .tile span { font-size: 2.2rem; display: block; }
+    .notice { padding: 13px 15px; border-radius: 15px; background: #fff8d9; }
+    .submit-panel { text-align: center; background: linear-gradient(135deg, #fff0f7, #f1edff, #eaf8ff); }
+    footer { padding: 18px; text-align: center; background: rgba(255,255,255,.7); }
+    .small { font-size: .92rem; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #7352a6; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="sparkles">✧ 🌈 🍰 ✧</div>
+    <h1>Kailey Core</h1>
+    <p class="subtitle">Welcome to the Core Cakes Club! ♡</p>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#yumi">Meet Yumi</a>
+      <a href="#gallery">Fan Art</a>
+      <a href="#submit">Submit Art</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="rainbow" aria-hidden="true">🌈</div>
+      <h2>Hi, Core Cakes! ♡</h2>
+      <p>A pastel little corner for Kailey Core fans, original characters, and creative ideas.</p>
+      <a class="button" href="#yumi">Meet Yumi ✨</a>
+    </section>
+
+    <section id="yumi">
+      <h2>🌷 Meet Yumi</h2>
+      <div class="yumi-icon" aria-label="Flower icon for Yumi">🌼</div>
+      <div style="text-align:center">
+        <h3>Yumi ♡</h3>
+        <span class="pill">Cute-core</span><span class="pill">Cozy</span><span class="pill">Creative</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>🌸 Her look</h3>
+          <p>Brown fluffy wolfcut hair, a little white flower clip, big dark eyes with star highlights, and a cute “:3” expression.</p>
+        </article>
+        <article class="card">
+          <h3>🧸 Her outfit</h3>
+          <p>A dark grey-brown top, striped grey sleeves or arm warmers, and dark blue jeans.</p>
+        </article>
+        <article class="card">
+          <h3>💫 More Yumi facts</h3>
+          <p> 🌸 What Is Yumi Like?
+
+Yumi is a shy, sweet, and creative girl who loves drawing, flowers, and cute accessories. 🎀 She can be a little quiet at first, but once she feels comfortable, her playful and silly side comes out! She has a kind heart, a big imagination, and a tiny mysterious spark. ⭐
+
+Personality: Shy, kind, creative, playful, and cozy. ♡</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>🎨 Approved Fan Art Gallery</h2>
+      <p>Only art that has been reviewed and approved should be added here. Replace these sample cards with artwork you have permission to share.</p>
+      <div class="gallery" id="approved-gallery">
+        <div class="tile"><div><span>🖍️</span><strong>Fan art goes here</strong><br><small>Sample card</small></div></div>
+        <div class="tile"><div><span>🌷</span><strong>Draw Yumi</strong><br><small>Sample card</small></div></div>
+        <div class="tile"><div><span>🧁</span><strong>Core Cakes creativity</strong><br><small>Sample card</small></div></div>
+        <div class="tile"><div><span>⭐</span><strong>More art soon</strong><br><small>Sample card</small></div></div>
+      </div>
+    </section>
+
+    <section id="submit" class="submit-panel">
+      <h2>📮 Submit Fan Art</h2>
+      <a href="https://docs.google.com/forms/d/1JP3J7MYrDYbk04mMlXurC3mzfUkk7ceE0qwO7zTMhBw/viewform" target="_blank">
+  🎨 Submit Your Fan Art here! 🌸
+        
+    
+      <p>Want to send art for the gallery? Use the official submission form below. Every submission must be reviewed before it can appear here.</p
+      <!-- SETUP: Replace GOOGLE_FORM_RESPONDER_URL below with the real Google Forms responder link. -->
+      <a class="button" id="submit-button" href="#submit" rel="noopener">Fan art form open cilck the link!♡</a>
+      <p class="small">Please use an artist nickname, never include private details, and submit only art you made or have permission to share.</p>
+    </section>
+
+    <section>
+      <h2>🛡️ Core Cakes Fan Art Rules</h2>
+      <ul>
+        <li>Be kind to artists and other fans.</li>
+        <li>No inappropriate, hateful, or bullying content.</li>
+        <li>Never share private details about yourself or anyone else.</li>
+        <li>Get permission before sharing someone else's artwork.</li>
+        <li>Every submission must be reviewed before it is added to the public gallery.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div>Made with ♡ for the Core Cakes Club</div>
+    <div class="small">Kailey Core · Pastel rainbow edition</div>
+  </footer>
+
+  <script>
+    // Replace this with the responder URL from your real Google Form.
+    // Keep your private response dashboard link secret.
+    const GOOGLE_FORM_RESPONDER_URL = "https://docs.google.com/forms/d/1JP3J7MYrDYbk04mMlXurC3mzfUkk7ceE0qwO7zTMhBw/viewform const submitButton = document.querySelector("#submit-button");
+
+    if (GOOGLE_FORM_RESPONDER_URL.startsWith("https://docs.google.com/forms/")) {
+      submitButton.href = GOOGLE_FORM_RESPONDER_URL;
+      submitButton.textContent = "Submit fan art ♡";
+      submitButton.target = "_blank";
+    }
+  </script>
+<body>< href="https://docs.google.com/forms/d/1JP3J7MYrDYbk04mMlXurC3mzfUkk7ceE0qwO7zTMhBw/viewform"
+target="_blank">
+🎨 Submit Your Fan Art Here! 🌸
+</body>
+</html>
